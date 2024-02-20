@@ -31,7 +31,11 @@ console.log(typeof stringNumber);
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+
+const data = 400
+const negdata = -data  // constant never change
+
+console.log(negValue,data);
 
 console.log(2+2);
 console.log(2-2);

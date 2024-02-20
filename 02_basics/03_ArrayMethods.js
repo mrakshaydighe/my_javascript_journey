@@ -17,7 +17,7 @@ console.warn(poopeditem);
 
 
 // unshift shift
-// unshift is use to add new elment in staring of arry
+// unshift is use to add new element in staring of arry
 const arry2 = [1,2,3,4]
 arry2.unshift("Welcome","Hii")
 console.log(arry2);
