@@ -39,3 +39,35 @@ console.log(numstring2,num2);
 let about =`data is ${num1}`
 console.log(about);
 
+
+// sting methods
+
+
+const data ="Aksh_aay"
+
+console.log(data.length);
+
+console.log(data.toLocaleLowerCase())
+console.log(data.toLowerCase())
+
+
+console.log(data.charAt(2)) /
+console.log(data.charCodeAt(2))
+console.log(data.indexOf("d")) // returns -1 if value not presnt
+
+console.log(data.replace("sh","as"))
+
+console.log(data.split("_"))
+console.log(data.split("a"))
+
+console.log(data.substring(0,3))
+console.log(data.slice(0,3))
+
+console.log(data.substring(0,-1))
+console.log(data.slice(0,-4))
+// FISRT MUST BE 0
+// SLICE CAN WORKS AS REVERSE
+
+
+console.log(data.endsWith("y")) // true
+console.log(data.match("a"))

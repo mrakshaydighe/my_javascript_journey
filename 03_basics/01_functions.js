@@ -10,10 +10,33 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(number1, number2){
+// basic function
 
-//     console.log(number1 + number2);
-// }
+function hello(){
+    console.log("hello world");
+   
+};
+
+hello(); 
+
+// function expression
+
+const hello2 = function(){
+    console.log("Hello world from hellow 2")
+}
+
+hello2();
+
+// arrow function
+
+const hello3 =() =>{
+    console.log("hello world from arrow")
+};
+
+hello3();
+
+// whenver we make function we say inside is parameters 
+// when we add values its know as agruments
 
 function addTwoNumbers(number1, number2){
 
