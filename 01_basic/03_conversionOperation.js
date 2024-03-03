@@ -4,8 +4,8 @@ console.log(typeof score);
 console.log(typeof(score)); // both are same
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log(typeof valueInNumber); // returns type number
+console.log(valueInNumber); // returns the NaN
 
 
 // "33" => 33
@@ -31,11 +31,7 @@ console.log(typeof stringNumber);
 
 let value = 3
 let negValue = -value
-
-const data = 400
-const negdata = -data  // constant never change
-
-console.log(negValue,data);
+// console.log(negValue);
 
 console.log(2+2);
 console.log(2-2);
@@ -57,14 +53,32 @@ console.log(1 + 2 + "2");
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
+// console.log(+true); //1
+// console.log(true+) not allowed
 // console.log(+"");
 
 let num1, num2, num3
+num1 = num2 = num3 = 2 + 2;
 
-num1 = num2 = num3 = 2 + 2
+// it assaing 2+2 at all variables but not make sense
 
-let gameCounter = 100
-++gameCounter;
-console.log(gameCounter);
+let gameCounter = 100;
+++gameCounter; // Increment gameCounter by 1 before using its value
+console.log(gameCounter); // Output: 101
 
+
+let gameCounter2 = 100;
+gameCounter2++; // Increment gameCounter2 by 1 after using its value
+console.log(gameCounter2); // Output: 101
+
+console.log(+"45") // 45
+console.log(+true);  //1
+console.log(+""); //0
+console.log(+null) //0
+console.log(+false)//0
+console.log(+[]) //0
+console.log(+[2])//2
+// console.log(+(new Symbol("a")))
+
+console.log(+{}) //NaN
+console.log(+undefined ) //NaN

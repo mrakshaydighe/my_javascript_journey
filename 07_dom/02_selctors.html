@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+
+    <!-- <h1 id="title"> Hey</h1> -->
+</body>
+<script>
+  const ds = document.querySelector(".parent")
+  const arry = Array.from(ds.children)
+
+  const h1 = document.createElement("h1")
+  h1.innerHTML = "Akshay"
+  arry.appendChild(h1)
+  console.log(arry)
+
+</script>
+</html>
